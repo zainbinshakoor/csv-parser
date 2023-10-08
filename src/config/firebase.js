@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore/lite";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.apiKey,
-  authDomain: process.env.authDomain,
-  projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
-  messagingSenderId: process.env.messagingSenderId,
-  appId: process.env.appId,
-  measurementId: process.env.measurementId,
+  apiKey: "AIzaSyDFt8uov7gfrZb2M0jQ11jM8tHkFiBb_OI",
+  authDomain: "taski-csv.firebaseapp.com",
+  projectId: "taski-csv",
+  storageBucket: "taski-csv.appspot.com",
+  messagingSenderId: "1021244581588",
+  appId: "1:1021244581588:web:e12fa8611690da8c023d41",
+  measurementId: "G-9YJKNBRQQG",
 };
 
 // Initialize Firebase

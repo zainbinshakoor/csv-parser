@@ -12,6 +12,7 @@ import {
 import { Table, Button, Modal, Form, Input, Spin } from "antd";
 import "./App.css";
 
+
 function App() {
   const collectionRef = collection(firestore, "students");
 
